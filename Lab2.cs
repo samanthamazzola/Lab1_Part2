@@ -13,7 +13,7 @@ namespace LabPart2
 
             TimeSpan interval = date2 - date1;
             double days = interval.Days;
-            double hours = days * 24;
+            double hours = days * 12;
             double minutes = hours * 60;
 
             Console.WriteLine("   {0,-15} {1,10}", "Total Number of Days:", days);
