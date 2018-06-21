@@ -6,9 +6,9 @@ namespace LabPart2
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("\nEnter date1:");
+            Console.WriteLine("\nEnter date1 below.");
             DateTime date1 = getDate();
-            Console.WriteLine("\nEnter date2:");
+            Console.WriteLine("\nEnter date2 below.");
             DateTime date2 = getDate();
 
             TimeSpan interval = date2 - date1;
